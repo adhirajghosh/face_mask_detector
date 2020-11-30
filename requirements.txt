@@ -1,0 +1,9 @@
+opencv-python==3.4.2.16
+scikit-learn
+glob3
+matplotlib
+argparse
+future
+numpy
+imutils
+dlib
