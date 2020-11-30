@@ -7,3 +7,11 @@ This model utilises the Histogram of Oriented Gradients (HOG) algorithm in order
 Command to install the required libraries:
 
  	pip install -r requirements.txt  
+
+## Project Structure
+Object Detector
+├── detector.py
+├── gather_annotations.py
+├── selectors/
+├── train.py
+└── test.py
