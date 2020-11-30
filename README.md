@@ -11,7 +11,7 @@ Command to install the required libraries:
  	pip install -r requirements.txt  
 
 ## Project Structure
-Object Detector
+**Object Detector**
 
 1. annot.py- script to annotate each image using a box selector.
 2. box_selector.py- contains BoxSelector class which helps us to annotate and create a bounding box of the specific region of the image that is relevant to the task.
@@ -19,7 +19,7 @@ Object Detector
 4. train.py - script used for training the object detector and generating the model.
 5. test.py- script to detect face masks in untrained images.
 
-Other files: 
+**Other files**
 1. annotations.npy - Stores the annotations of training images.
 2. images.npy - Stores the path of the training images.
 3. model.svm - Stores the trained model used to detect face masks in test images.
